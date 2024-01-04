@@ -16,7 +16,6 @@ To identify maze walls, the image is passed through color thresholds
 ```
     def filter(self, low, high, img):
         theMask = cv2.inRange(img, low, high)
-        # TODO: Work here
         hsv_color = cv2.cvtColor(img, cv2.COLOR_RGB2HSV)
 
         masked = cv2.bitwise_and(hsv_color, img, mask=theMask)
