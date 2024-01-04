@@ -26,6 +26,7 @@ The black and white image is then passed through a custom filter to identify val
 
 ## Creating a usable data structure
 The wall filter returns a 2d array where 0s represents empty spaces and 1s represent the walls
+
 ![output](https://github.com/Furutania/Robotics-Maze-Scanner/assets/97645214/6bd07461-89a8-4c89-ae66-97cbbf73e5b0)
 
 As we can see the produced map accurately reflects the walls of the maze
