@@ -1,6 +1,10 @@
 # Maze Scanner
 Uses Python openCV2 to identify features of a maze and translates data to a bitmap
 
+![robotMovement](https://github.com/Furutania/Robotics-Maze-Scanner/assets/97645214/73da08cc-fe02-47c5-8818-834e9735f4ce)
+
+
+
 ## Preprocessing
 To ensure a clean output, the corners of maze must be identified by the user via clicking the top left, top right, bottom right, bottom left corners in that order
 
